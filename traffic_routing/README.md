@@ -1,7 +1,7 @@
 # Traffic Routing
 This example demonstrates how to configure path based routing for upstream services.
 
-![](traffic_routing/images/routing.png)
+![](./images/routing.png)
 
 ## Configuration
 The API upstream called by the Web service is configured to route based on two different paths `\v1` which points to `api_v1` and `\v2` which points to `api_v2`. To configure this in Consul Service Mesh the following central configuration is required:
